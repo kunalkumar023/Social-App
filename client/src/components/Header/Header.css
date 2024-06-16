@@ -1,0 +1,15 @@
+.header{
+    display: flex;
+    justify-content: center;
+}
+
+.header > a{
+    color: rgb(97, 119, 138);
+    margin: 1vmax 3vmax;
+    
+}
+
+.header > a > svg{
+    width: 30px;
+    height: 30x;
+}

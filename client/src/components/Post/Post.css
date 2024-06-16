@@ -1,0 +1,66 @@
+.post{
+    width: 60%;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    padding: 0 1vmax 2vmax;
+    margin: 2vmax;
+}
+
+.postHeader{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 1vmax;
+}
+
+.postHeader > button{
+    border-radius: 100%;
+    color: rgba(0,0,0,0.582);
+    /* display: flex;
+    justify-content: flex-end;
+    align-items: flex-end; */
+    display: none;
+   
+}
+.postHeader>button>svg{
+    color: black;
+}
+
+.post>img{
+    width: 100%;
+}
+
+.postDetails{
+    display: flex;
+    padding: 1vmax;
+}
+
+.postFooter > button{
+    color: rgba(0,0,0,0.767);
+    margin: 0 1vmax;
+    border-radius: 100%;
+    transition: all 0.3s;
+}
+
+.postFooter >button:hover{
+transform: translateY(-4px);
+}
+
+.postFooter >button>svg{
+    font-size: 1.7vmax;
+}
+
+.dialogBox{
+    width: 500px;
+    height: 80vh;
+    margin-left: 15px;
+    margin-right: 15px;
+    
+}
+
+.dialogBox>form>input{
+    padding: 5px;
+    border-radius: 55px;
+   
+}
